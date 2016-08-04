@@ -3,4 +3,11 @@ style {
   background-color: lightblue;
   font-family: "Courier New," Courier, monospace;
   }
+  
+div {
+  width: 500px;
+  
+  border: 5px solid blue;
+  
+}
 }
