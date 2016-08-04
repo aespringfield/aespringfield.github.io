@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	#metadata
+		<title>HTML and CSS Class </title>
+	</head>
+	<body>
+	#things you actually see
+	<h1>Millie's Recipes</h1>
+		<h2>Cookie Recipe</h2>
+		<div>
+			<img src="http://static1.squarespace.com/static/54c95d06e4b04d8d26f97dde/t/570d4048e707ebd28d303f32/1460486224633/" alt="Image of Cookie Monster" height="100" width="150">
+		<p>
+		Millie Walsh
+		Software Dev Instructor
+		Part time baker
+		</p>
+		
+		<ul>
+			<li> 3/4 cup sugar </li>
+			<li> 1 cup butter </li>
+			<li> 1 egg </li>
+		</ul>
+		<div>
+			<h3>Recipe</h3>
+			<ol>
+				<li> Preheat oven </li>
+				<li> Mix wet ingredients in a bowl</li>
+			</ol>
+		</div>
+	</body>
+</html>
