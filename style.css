@@ -24,3 +24,7 @@ h2 {
   color: #D67F2D;
   font-weight: bold;
 }
+
+a:link {
+  color: normal;
+}
