@@ -25,6 +25,14 @@ h2 {
   font-weight: bold;
 }
 
-a {
-  color: inherit;
+a:link {
+  color: inherit
+}
+
+a:visited {
+  color: inherit
+}
+
+a:hover {
+  color: gray
 }
