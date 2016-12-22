@@ -26,7 +26,8 @@ h2 {
 }
 
 a:link {
-  color: inherit
+  color: inherit;
+  text-decoration: none;
 }
 
 a:visited {
@@ -34,5 +35,5 @@ a:visited {
 }
 
 a:hover {
-  color: #D9D3CD
+  color: #AEADAD
 }
