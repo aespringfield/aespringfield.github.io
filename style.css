@@ -40,12 +40,12 @@ h4 {
 
 .left_column {
   float: left;
-  width: 50%;
+  width: 49%;
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .right_column {
   float: right;
-  width: 50%;
+  width: 49%;
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
