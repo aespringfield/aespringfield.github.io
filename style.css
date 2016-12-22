@@ -7,19 +7,19 @@ body {
   }
 
 h1 {
-  font-size: 48px;
+  font-size: 36px;
   color: #D67F2D;
   margin: 0;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 24px;
   color: #D67F2D;  
 }
 
 h3 {
   color: #AEADAD;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: normal;
 }
 
