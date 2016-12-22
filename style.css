@@ -7,16 +7,22 @@ body {
   }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   color: #D67F2D;
   margin: 0;
 }
 
 h2 {
-  font-size: 24px;
-  color: #D67F2D;
-  
+  font-size: 36px;
+  color: #D67F2D;  
 }
+
+h3 {
+  color: #AEADAD;
+  font-size: 24px;
+  font-weight: normal;
+}
+
 .floatright {
   float: right;
   margin: 0 24 10px 10px;
@@ -45,10 +51,6 @@ div {
   padding: 0;
 }
 
-h3 {
-  color: #AEADAD;
-  font-weight: normal;
-}
 
 /* #header {
   background-color: #AEADAD;
