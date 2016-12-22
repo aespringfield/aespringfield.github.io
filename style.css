@@ -31,9 +31,15 @@ a:link {
 }
 
 a:visited {
-  color: inherit
+  color: inherit;
 }
 
 a:hover {
-  color: #AEADAD
+  color: #AEADAD;
 }
+
+#header {
+  background-color: #AEADAD;
+  border-radius: 25px;
+}
+  
