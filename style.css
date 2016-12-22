@@ -28,11 +28,6 @@ h4 {
   font-style: italic;
 }
 
-.floatright {
-  float: right;
-  margin: 0 24 10px 10px;
-}
-
 .institution {
   color: #D67F2D;
   font-weight: bold;
@@ -41,12 +36,11 @@ h4 {
 .left_column {
   float: left;
   width: 49%;
-  border: 1px solid rgba(0, 0, 0, 0.3);
 }
+
 .right_column {
   float: right;
   width: 49%;
-  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 a:link {
