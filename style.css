@@ -9,11 +9,13 @@ div {
 }
 
 h1 {
-  font-size: 36px
+  font-size: 36px;
+  color: #D67F2D;
 }
 
 h2 {
-  font-size: 24px
+  font-size: 24px;
+  color: #D67F2D;
   
 }
 .floatright {
