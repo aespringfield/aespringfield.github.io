@@ -23,6 +23,11 @@ h3 {
   font-weight: normal;
 }
 
+h4 {
+  font-size: 14px;
+  font-style: italic;
+}
+
 .floatright {
   float: right;
   margin: 0 24 10px 10px;
