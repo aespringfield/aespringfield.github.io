@@ -2,14 +2,9 @@
   font-family: "Courier New," Courier, monospace;
   }
   
-div {
-  width: 500px;
-  
-  border: 5px solid blue;
-  border-radius: 25px;
-  
+div {  
   margin: 25px;
-  text-align: center;
+  text-align: left;
 }
 
 p {
@@ -19,5 +14,5 @@ p {
   
 }
 .image {
-  text-align: center;
+  float: right;
 }
