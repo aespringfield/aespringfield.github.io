@@ -40,9 +40,11 @@ h4 {
 
 .left_column {
   float: left;
+  width: 50%;
 }
 .right_column {
   float: right;
+  width: 50%;
 }
 
 a:link {
