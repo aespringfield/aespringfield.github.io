@@ -38,6 +38,13 @@ h4 {
   font-weight: bold;
 }
 
+.left_column {
+  float: left;
+}
+.right_column {
+  float: right;
+}
+
 a:link {
   color: #D67F2D;
   text-decoration: none;
@@ -56,6 +63,9 @@ div {
   padding: 0;
 }
 
+#wrapper {
+  overflow: auto;
+}
 
 /* #header {
   background-color: #AEADAD;
