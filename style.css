@@ -19,7 +19,12 @@ h2 {
   float: right;
   margin: 0 24 10px 10px;
 }
-#institution{
+
+#institution {
   color: #D67F2D;
   font-weight: bold;
+}
+
+#name {
+  font-weight: 800;
 }
