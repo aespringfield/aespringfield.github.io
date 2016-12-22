@@ -65,6 +65,11 @@ div {
   overflow: auto;
 }
 
+.employ_dates {
+  color: #AEADAD;
+  float: right;
+}
+
 /* #header {
   background-color: #AEADAD;
   border-radius: 25px;
