@@ -1,4 +1,4 @@
-  body {
+body {
   font-family: Calibri, sans-serif;
   font-size: 12px
   }
@@ -7,10 +7,12 @@ div {
   margin: 25px;
 }
 
-p {
-  background-color: LightGreen;
-  width: 50%;
+h1 {
+  font-size: 36px
 }
+
+h2 {
+  font-size: 24px
   
 }
 .floatright {
