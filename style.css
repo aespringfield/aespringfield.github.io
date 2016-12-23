@@ -70,7 +70,8 @@ a:hover {
 #bio_block {
   background-color: #AEADAD;
   border-radius: 10px;
-  padding: 10%;
+  width: 356px;
+  padding: 5%;
 }
 
 /* #header {
