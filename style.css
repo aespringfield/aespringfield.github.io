@@ -96,3 +96,7 @@ h3.employ_dates {
 .employ_details {
   width: 70%;
 }
+
+span.no_wrap {
+  display: inline-block;
+}
