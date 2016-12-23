@@ -58,7 +58,6 @@ a:hover {
 .left_column {
   float: left;
   width: 60%;
-  min-width: 500px;
 }
 
 .right_column {
