@@ -47,6 +47,7 @@ a:hover {
 
 #wrapper {
   overflow: auto;
+  max-width: 100%
 }
 
 .left_column {
