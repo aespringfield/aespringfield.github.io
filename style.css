@@ -16,9 +16,7 @@ h1 {
 h2 {
   font-size: 32px;
   color: #D67F2D;
-  border-bottom-width: 1px;
-  border-bottom-color: #AEADAD;
-  border-bottom-style: solid;
+  border-bottom: 1px solid #AEADAD;
 }
 
 h3 {
