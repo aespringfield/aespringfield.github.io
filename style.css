@@ -1,6 +1,6 @@
 body {
-  font-family: Josephin Sans, sans-serif;
-  font-size: 16px;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 14px;
   }
 
 h1 {
@@ -16,7 +16,7 @@ h2 {
 
 h3 {
   color: #AEADAD;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: normal;
   margin: 0;
 }
@@ -79,7 +79,7 @@ h3.employ_dates {
 #bio_block {
   background-color: #AEADAD;
   color: white;
-  font-family: Josephin Sans, sans-serif;
+  font-family: Josefin Sans, sans-serif;
   font-size: 22px;
   border-radius: 10px;
   width: 356px;
