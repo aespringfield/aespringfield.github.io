@@ -42,6 +42,7 @@ h4 {
 .right_column {
   float: right;
   width: 49%;
+  background-color: #AEADAD;
 }
 
 a:link {
