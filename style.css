@@ -30,21 +30,6 @@ h4 {
   margin: 0;
 }
 
-.institution {
-  color: #D67F2D;
-  font-weight: bold;
-}
-
-.left_column {
-  float: left;
-  width: 49%;
-}
-
-.right_column {
-  float: right;
-  width: 49%;
-}
-
 a:link {
   color: #D67F2D;
   text-decoration: none;
@@ -66,18 +51,14 @@ a:hover {
   margin-right: 10%;
 }
 
-.employ_dates {
+.left_column {
+  float: left;
+  width: 49%;
+}
+
+.right_column {
   float: right;
-  display: inline;
-  font-weight: normal;
-}
-
-h3.employ_dates {
-  color: #D67F2D;
-}
-
-.employ_block {
-  margin-bottom: 10px;
+  width: 49%;
 }
 
 #bio_block {
@@ -89,4 +70,23 @@ h3.employ_dates {
   width: 356px;
   padding: 5%;
   margin-top: 10px;
+}
+
+.institution {
+  color: #D67F2D;
+  font-weight: bold;
+}
+
+.employ_block {
+  margin-bottom: 10px;
+}
+
+.employ_dates {
+  float: right;
+  display: inline;
+  font-weight: normal;
+}
+
+h3.employ_dates {
+  color: #D67F2D;
 }
