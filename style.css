@@ -15,7 +15,8 @@ h1 {
 
 h2 {
   font-size: 32px;
-  color: #D67F2D;  
+  color: #D67F2D;
+  border-bottom: 1px;
 }
 
 h3 {
