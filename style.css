@@ -69,10 +69,11 @@ a:hover {
 
 #bio_block {
   background-color: #AEADAD;
+  color: white;
   border-radius: 10px;
   width: 356px;
   padding: 5%;
-  color: white;
+  margin-top: 10px;
 }
 
 /* #header {
