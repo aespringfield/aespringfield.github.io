@@ -74,8 +74,7 @@ a:hover {
 }
 
 .center {
-  margin-left: auto;
-  margin-right: auto;
+  float: right;
 }
 
 .institution {
