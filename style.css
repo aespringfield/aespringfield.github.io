@@ -54,12 +54,12 @@ a:hover {
 
 .left_column {
   float: left;
-  width: 49%;
+  width: 60%;
 }
 
 .right_column {
   float: right;
-  width: 49%;
+  width: 38%;
 }
 
 #bio_block {
@@ -71,10 +71,6 @@ a:hover {
   width: 356px;
   padding: 5%;
   margin-top: 10px;
-}
-
-.center {
-  float: right;
 }
 
 .institution {
