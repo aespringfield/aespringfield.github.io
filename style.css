@@ -48,6 +48,7 @@ a:hover {
 #wrapper {
   overflow: auto;
   margin: 5%;
+  min-width: 400em;
 }
 
 .left_column {
