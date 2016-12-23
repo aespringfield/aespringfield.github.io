@@ -65,8 +65,8 @@ a:hover {
 
 .employ_dates {
   float: right;
-  font-style: normal;
   display: inline;
+  font-weight: normal;
 }
 
 h3.employ_dates {
