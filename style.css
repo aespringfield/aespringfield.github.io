@@ -98,5 +98,5 @@ h3.employ_dates {
 }
 
 span.no_wrap {
-  display: inline-block;
+  white-space: nowrap;
 }
