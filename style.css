@@ -58,11 +58,13 @@ a:hover {
 .left_column {
   float: left;
   width: 60%;
+  min-width: 300px;
 }
 
 .right_column {
   float: right;
   width: 38%;
+  $("#sidebar").stick_in_parent();
 }
 
 #bio_block {
