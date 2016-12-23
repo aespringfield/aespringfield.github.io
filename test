@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Springfield Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+  <div id="wrapper">
+  <div class="right_column">
+    <img src="aespringfield.github.io/self-portrait final crop.jpg" alt="Anna drawing" width="356">
+  <div id="bio_block">
+    <p>Creative. Analytical. Endlessly curious.</p>
+    <p>I love working with a team to tackle meaningful problems.</p>
+    <p>After nearly four years in nonprofit program coordination, I'm letting my curiosity lead me toward a challenging and fulfilling next phase of my career.</p>
+  </div>
+  </div>    
+  <div class="left_column">
+  <div id="header">
+    <h1>Anna Springfield</h1>
+    <h3>1915 3rd Ave S #202, Minneapolis, MN 55404 | 919.986.9535</h3>
+  </div>
+  <div>
+    <h2>Education</h2>
+    <h3><a href="http://www.macalester.edu" class="institution" target="_blank">Macalester College</a> | <span class="no_wrap">St. Paul, MN</span></h3>
+    <ul>
+      <li>Bachelor of Arts, GPA 3.7/4.0 </li>
+        <ul>
+          <li>Major: English</li>
+          <li>Minors: French and Environmental Studies</li>
+        </ul>
+      </ul>
+  </div>
+  <div class="employ_block">
+    <h2>Professional Experience</h2>
+    <h3 class="employ_dates">Apr 2013-present</h3>
+    <h3><a href="http://www.smart-trips.org" class="institution" target="_blank">St. Paul Smart Trips</a> | <span class="no_wrap">St. Paul, MN</span></h3>
+    <h4 class="employ_dates">Jan 2015-present</h4>
+    <h4>Program Coordinator</h4>
+    <ul class="employ_details">
+      <li>Lead grantwriting process for a sustainable transportation nonprofit</li>
+      <ul>
+        <li>Research grant opportunities and manage calendar of deadlines</li>
+        <li>Communicate with program staff to develop proposal concepts</li>
+        <li>Write proposal drafts and collaboratively revise with program staff</li>  
+      </ul>
+      <li>Coordinate educational activities for St. Paul Women on Bikes, a program of the organization</li>
+      <ul>
+        <li>Develop and teach curriculum for new bikers</li>
+        <li>Coordinate with partner organizations and volunteers</li>
+        <li>Produce a monthly newsletter, manage social media and website, write regular blog posts</li>
+      </ul>
+    </ul>
+    <h4 class="employ_dates">Apr 2014-Jan 2015</h4>
+    <h4>Program Assistant</h4>
+    <ul class="employ_details">
+      <li>Wrote and edited grant proposals</li>
+      <li>Assisted with communications, outreach, and events for two programs</li>
+    </ul>
+    <h4 class="employ_dates">Apr 2013-Apr 2014</h4>
+    <h4>Program Assistant Intern</h4>
+    <ul class="employ_details">
+      <li>Assisted with a variety  of communications, grantwriting, event-planning, and administrative tasks</li>
+    </ul>
+  </div>
+  <div class="employ_block">
+    <h3 class="employ_dates">Sep 2010-May 2013</h3>
+    <h3><a href="https://www.macalester.edu/max/" class="institution" target="_blank">Macalester Academic Excellence Center</a> | <span class="no_wrap">St. Paul, MN</span></h3>
+      <h4>Writing Tutor, CRLA certified</h4>
+    <ul class="employ_details">
+      <li>Assessed student papers for issues of grammar, structure, flow, and other writing concerns</li>
+      <li>Coached students on writing in one-to-one and group sessions</li>
+    </ul>
+  </div>
+  <div class="employ_block">
+    <h3 class="employ_dates">Aug 2011-Dec 2011</h3>
+    <h3><a href="http://www.violetteandco.com/librairie/" class="institution" target="_blank">Librairie Violette and Co</a> | <span class="no_wrap">Paris, France</span></h3>
+    <h4>General Assistant</h4>
+    <ul class="employ_details">
+      <li>Assisted with day-to-day operations of a Parisian bookstore</li>
+      <li>Managed website and updated social media platforms </li>
+    </ul>
+  </div>
+  <div>
+    <h2>Skills</h2>
+    <ul>
+      <li>Grantwriting and prospecting</li>
+      <li>Teaching and group facilitation</li>
+      <li>Content management in WordPress</li>
+      <li>Python 3 </li>
+      <li>JSON, XML, and SQL (basic)</li>
+      <li>HTML5 and CSS (basic)</li>
+      <li>French (fluent)</li>
+      <li>Spanish (proficient)</li>
+    </ul>
+  </div>
+  </div>
+  </div>
+ </body>
+</html>
