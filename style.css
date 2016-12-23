@@ -67,6 +67,11 @@ a:hover {
   display: inline;
 }
 
+#bio_block {
+  background-color: #AEADAD;
+  border-radius: 10px;
+}
+
 /* #header {
   background-color: #AEADAD;
   border-radius: 25px;
