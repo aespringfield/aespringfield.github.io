@@ -26,6 +26,7 @@ h3 {
 }
 
 h4 {
+  color: #AEADAD;
   font-size: 14px;
   font-style: italic;
   margin: 0;
@@ -70,10 +71,6 @@ a:hover {
 
 h3.employ_dates {
   color: #D67F2D;
-}
-
-h4.employ_dates {
-  color: #AEADAD;
 }
 
 .employ_block {
