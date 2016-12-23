@@ -83,16 +83,16 @@ a:hover {
   margin-bottom: 30px;
 }
 
-.employ_dates {
+.employ_dates, .sub_employ_dates {
   display: inline-block;
   float: right;
-  font-weight: normal;
   width: 29%;
   text-align: right;
 }
 
-h3.employ_dates {
+.employ_dates {
   color: #D67F2D;
+  font-weight: normal;
 }
 
 .employ_details {
