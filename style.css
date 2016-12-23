@@ -47,7 +47,7 @@ a:hover {
 
 #wrapper {
   overflow: auto;
-  max-width: 80%
+  margin: 5% 8%;
 }
 
 .left_column {
@@ -57,7 +57,7 @@ a:hover {
 
 .right_column {
   float: right;
-  width: 35%;
+  width: 38%;
 }
 
 #bio_block {
