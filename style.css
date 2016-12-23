@@ -22,6 +22,7 @@ h3 {
   color: #AEADAD;
   font-size: 18px;
   font-weight: normal;
+  border-style: solid;
   border-color: green;
 }
 
