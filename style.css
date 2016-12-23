@@ -62,6 +62,7 @@ a:hover {
 
 #self_pic, #bio_block {
   width: 80%;
+  position: fixed;
 }
 
 #bio_block {
