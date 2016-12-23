@@ -58,6 +58,7 @@ a:hover {
 .right_column {
   float: right;
   width: 38%;
+  position: fixed;
 }
 
 #self_pic, #bio_block {
