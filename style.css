@@ -69,7 +69,7 @@ a:hover {
   font-family: Josefin Sans, sans-serif;
   font-size: 22px;
   border-radius: 10px;
-  width: 356px;
+  width: 100%;
   padding: 5%;
   margin-top: 10px;
 }
