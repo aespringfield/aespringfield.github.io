@@ -87,6 +87,7 @@ a:hover {
   display: inline;
   font-weight: normal;
   width: 29%;
+  text-align: right;
 }
 
 h3.employ_dates {
