@@ -56,10 +56,6 @@ a:hover {
   color: #AEADAD;
 }
 
-div {
-  display: block;
-}
-
 #wrapper {
   overflow: auto;
 }
@@ -67,6 +63,7 @@ div {
 .employ_dates {
   color: #AEADAD;
   float: right;
+  display: inline;
 }
 
 /* #header {
