@@ -23,7 +23,7 @@ h3 {
   color: #AEADAD;
   font-size: 18px;
   font-weight: normal;
-  margin: 0px;
+  margin: 0;
 }
 
 h4 {
@@ -61,7 +61,6 @@ a:hover {
 .right_column {
   float: right;
   width: 38%;
-  $("#sidebar").stick_in_parent();
 }
 
 #bio_block {
