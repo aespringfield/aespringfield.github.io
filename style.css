@@ -16,13 +16,12 @@ h2 {
 
 h3 {
   color: #AEADAD;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: normal;
   margin: 0;
 }
 
 h4 {
-  font-size: 14px;
   font-style: italic;
   margin: 0;
 }
@@ -81,7 +80,7 @@ h3.employ_dates {
   background-color: #AEADAD;
   color: white;
   font-family: Josephin Sans, sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   border-radius: 10px;
   width: 356px;
   padding: 5%;
