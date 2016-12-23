@@ -3,16 +3,18 @@ body {
   font-size: 14px;
   }
 
-h1 {
+h1, h2, h3 {
   font-family: Josefin Sans, sans-serif;
-  font-size: 42px;
+}
+
+h1 {
+  font-size: 46px;
   color: #D67F2D;
   margin: 0;
 }
 
 h2 {
-  font-family: Josefin Sans, sans-serif;
-  font-size: 28px;
+  font-size: 32px;
   color: #D67F2D;  
 }
 
