@@ -42,7 +42,6 @@ h4 {
 .right_column {
   float: right;
   width: 49%;
-  background-color: #AEADAD;
 }
 
 a:link {
@@ -71,6 +70,7 @@ a:hover {
 #bio_block {
   background-color: #AEADAD;
   border-radius: 10px;
+  padding: 10%;
 }
 
 /* #header {
