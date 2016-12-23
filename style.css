@@ -84,6 +84,7 @@ a:hover {
 }
 
 .employ_dates {
+  display: inline-block;
   float: right;
   font-weight: normal;
   width: 29%;
