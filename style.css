@@ -1,10 +1,6 @@
 body {
   font-family: Calibri, sans-serif;
   font-size: 14px;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 10%;
-  margin-right: 10%:
   }
 
 h1 {
@@ -61,6 +57,10 @@ a:hover {
 
 #wrapper {
   overflow: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .employ_dates {
