@@ -17,7 +17,7 @@ function Drill(batteryAmpHours, bits, speeds) {
 * Adds properties and methods to the Drill prototype
 * @property {String} rotateDir - the direction ("clockwise" or "counter-clockwise") the drill is set to rotate
 * @property {String} currentBit - the bit currently in use. Starts as undefined.
-* @property {Number} currentSpeed - the speed to which the drill is currently set. Starts as the first value in the drill's speeds array.
+* @property {Number} currentSpeed - the speed to which the drill is currently set. Starts as undefined.
 * @property {Function} chargeBattery - increases the battery's current amount of charge (ampHoursLeft) to its maximum (batteryAmpHours)
 * @property {Function} useDrill - simulates using the drill. Takes a number of ampere hours as a parameter and subtracts it from ampHoursLeft, if possible.
 * @property {Function} changeRotateDir - switches rotateDir to the opposite of its current state ("clockwise" or "counter-clockwise")
@@ -28,7 +28,7 @@ function Drill(batteryAmpHours, bits, speeds) {
 Drill.prototype = {
   rotateDir: "clockwise",
   currentBit: undefined,
-  currentSpeed: this.speeds[0],
+  currentSpeed: undefined,
   chargeBattery: function() {
     if (this.ampHoursLeft < this.batteryAmpHours) {
       this.ampHoursLeft = this.batteryAmpHours;
