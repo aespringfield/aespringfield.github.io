@@ -68,7 +68,7 @@ Drill.prototype = {
 };
 
 /**
-* Takes a user input to switch a thing currently in use (i.e. currentBit or currentSpeed) to different thing from the appropriate array (i.e. bits or speeds)
+* Helper function that takes a user input to switch a thing currently in use (i.e. currentBit or currentSpeed) to different thing from the appropriate array (i.e. bits or speeds)
 * @param {String} thingName - the kind of thing that is being switched (i.e. "bit" or "speed")
 * @param {String} currentThing - the thing currently in use (i.e. value of currentBit or currentSpeed property of Drill object)
 * @param {Array} thingArray - the array of possible things to switch to (i.e. value of bits or speeds property of Drill object)
