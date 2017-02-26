@@ -44,6 +44,8 @@ var updateDrill = function() {
 
 var noneForUndefined = function(property) {
   if (property === undefined) {
-    return "None";
+    return "none";
+  } else {
+    return property;
   }
 };
