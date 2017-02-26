@@ -99,6 +99,6 @@ var changeSomething = function (thingName, currentThing, thingArray) {
 };
 
 //Creating an example Drill object:
-var bits1 = ["dowel bit", "auger drill bit", "wood spade bit", "masonry drill bit"];
+var bits1 = ["dowel bit", "auger bit", "wood spade bit", "masonry bit"];
 var speeds1 = [1, 2, 3];
 var drill1 = new Drill(1.2, bits1, speeds1);
