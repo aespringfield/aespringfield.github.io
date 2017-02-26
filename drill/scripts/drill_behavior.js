@@ -1,22 +1,3 @@
-var showThing = function (button) {
-  var buttonClass = button.className;
-  var msg;
-  console.log(buttonClass);
-  // if () {
-  //
-  // // }
-  // $(buttonClass).find('span').text(msg);
-};
-
-Array.prototype.toSpaceString = function () {
-  var spaceString = "";
-  for (var i = 0; i < this.length - 1; i++) {
-    spaceString += this[i] + ", ";
-  }
-  spaceString += this[this.length-1];
-  return spaceString;
-};
-
 $(document).ready(function() {
   updateDrill();
 
@@ -51,7 +32,6 @@ $(document).ready(function() {
   });
 });
 
-
 var updateDrill = function() {
   $('#battery_amp_hours').text(drill1.batteryAmpHours);
   $('#amp_hours_left').text(drill1.ampHoursLeft.toFixed(1));
@@ -60,18 +40,4 @@ var updateDrill = function() {
   $('#speeds').text(drill1.speeds.toSpaceString());
   $('#bits').text(drill1.bits.toSpaceString());
   $('#rotate_dir').text(drill1.rotateDir);
-};
-
-var useDrillPrompt = function () {
-  var userAmpHours = parseFloat(prompt("How many amp-hours of drilling are you doing?"));
-  if (userAmpHours) {
-    drill1.useDrill(userAmpHours);
-  }
-};
-
-var addBitPrompt = function () {
-  var userAddBit = prompt("What bit would you like to add?");
-  if (userAddBit) {
-    drill1.addBit(userAddBit);
-  }
 };

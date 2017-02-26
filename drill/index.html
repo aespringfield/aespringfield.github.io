@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Drills</title>
-    <link rel="stylesheet" type="text/css" href="drill_style.css" />
-    <script type="text/javascript" src="scripts/jquery-3.1.1.js"></script>
-  </head>
-  <body>
-  <h1>Here's a drill!</h1>
-  <h2>You can make changes to it.</h2>
-  <button id="add_bit">ADD BIT</button>
-  <button id="bit">CHANGE BIT</button>
-  <button id="speed">CHANGE SPEED</button>
-  <button id="change_rotate_dir">REVERSE</button>
-  <button id="use_drill">USE DRILL</button>
-  <button id="recharge">RECHARGE</button>
-  <h2>Here are its properties:</h2>
-  <ul>
-    <li>Battery amp-hours: <span id="battery_amp_hours"></span></li>
-    <li>Amp-hours left: <span id="amp_hours_left"></span></li>
-    <li>Bits included: <span id="bits"></span></li>
-    <li>Speeds: <span id="speeds"></span></li>
-    <li>Direction of rotation: <span id="rotate_dir"></span></li>
-    <li>Current bit: <span id="current_bit"></span></li>
-    <li>Current speed: <span id="current_speed"></span></li>
-  </ul>
+<head>
+  <meta charset="utf-8">
+  <title>Drills</title>
+  <link rel="stylesheet" type="text/css" href="drill_style.css" />
+  <script type="text/javascript" src="scripts/jquery-3.1.1.js"></script>
+</head>
+<body>
+  <div id="container">
+    <h1>Here's a drill!</h1>
+    <img src="images/electric_drill.jpg" alt="electric drill" title="check out this drill"/>
+    <h2>You can make changes to it.</h2>
+    <button id="add_bit">ADD BIT</button>
+    <button id="bit">CHANGE BIT</button>
+    <button id="speed">CHANGE SPEED</button>
+    <button id="change_rotate_dir">REVERSE</button>
+    <button id="use_drill">USE DRILL</button>
+    <button id="recharge">RECHARGE</button>
+    <h2>Here are its properties:</h2>
+    <ul>
+      <li>Battery amp-hours: <span id="battery_amp_hours"></span></li>
+      <li>Amp-hours left: <span id="amp_hours_left"></span></li>
+      <li>Bits included: <span id="bits"></span></li>
+      <li>Speeds: <span id="speeds"></span></li>
+      <li>Direction of rotation: <span id="rotate_dir"></span></li>
+      <li>Current bit: <span id="current_bit"></span></li>
+      <li>Current speed: <span id="current_speed"></span></li>
+    </ul>
+  </div>
   <script src="scripts/drill.js"></script>
   <script src="scripts/drill_behavior.js"></script>
-  </body>
+</body>
 </html>

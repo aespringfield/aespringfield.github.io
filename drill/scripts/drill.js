@@ -76,7 +76,31 @@ var changeSomething = function (thingName, currentThing, thingArray) {
   }
 };
 
-var bits1 = ["pointy one", "super pointy one", "stubby one", "busted one"];
-var speeds1 = ["fast", "ultra fast", "warp speed"];
+var useDrillPrompt = function () {
+  var userAmpHours = parseFloat(prompt("How many amp-hours of drilling are you doing?"));
+  if (userAmpHours) {
+    drill1.useDrill(userAmpHours);
+  }
+};
+
+var addBitPrompt = function () {
+  var userAddBit = prompt("What is the name of the bit you are adding?");
+  if (userAddBit) {
+    drill1.addBit(userAddBit);
+  }
+};
+
+Array.prototype.toSpaceString = function () {
+  var spaceString = "";
+  for (var i = 0; i < this.length - 1; i++) {
+    spaceString += this[i] + ", ";
+  }
+  spaceString += this[this.length-1];
+  return spaceString;
+};
+
+
+var bits1 = ["dowel bit", "auger drill bit", "wood spade bit", "masonry drill bit"];
+var speeds1 = [1, 2, 3];
 
 var drill1 = new Drill(1.2, bits1, speeds1);
