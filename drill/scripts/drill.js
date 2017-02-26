@@ -1,3 +1,11 @@
+/**
+* Represents an electric drill
+* @constructor
+* @param {Number} batteryAmpHours - the maximum amount of charge this drill's battery is able to hold (in ampere hours)
+* @param {Array} bits - an array of strings representing the different kinds of bits included with this drill
+* @param {Array} speeds - an array of numbers representing the different speed settings on this drill
+* @property {Number} ampHoursLeft - the amount of charge this drill's battery has left
+*/
 function Drill(batteryAmpHours, bits, speeds) {
   this.batteryAmpHours = batteryAmpHours;
   this.bits = bits;
@@ -5,6 +13,18 @@ function Drill(batteryAmpHours, bits, speeds) {
   this.ampHoursLeft = this.batteryAmpHours;
 }
 
+/**
+* Adds properties and methods to the Drill prototype
+* @property {String} rotateDir - the direction ("clockwise" or "counter-clockwise") the drill is set to rotate
+* @property {String} currentBit - the bit currently in use. Starts as undefined.
+* @property {Number} currentSpeed - the speed to which the drill is currently set. Starts as undefined.
+* @property {Function} chargeBattery - increases the battery's current amount of charge (ampHoursLeft) to its maximum (batteryAmpHours)
+* @property {Function} useDrill - simulates using the drill. Takes a number of ampere hours as a parameter and subtracts it from ampHoursLeft, if possible.
+* @property {Function} changeRotateDir - switches rotateDir to the opposite of its current state ("clockwise" or "counter-clockwise")
+* @property {Function} addBit - takes a user input to add a new bit to the drill's array of bits
+* @property {Function} changeBit - takes a user input to change currentBit to a different bit from the drill's array of bits
+* @property {Function} changeSpeed - takes a user input to change currentSpeed to a different speed from the drill's array of speeds
+*/
 Drill.prototype = {
   rotateDir: "clockwise",
   currentBit: undefined,
@@ -27,11 +47,7 @@ Drill.prototype = {
       this.ampHoursLeft = 0;
     }
   },
-  checkCharge: function() {
-    console.log(this.ampHoursLeft.toFixed(2) + " amp-hours left");
-    return this.ampHoursLeft;
-  },
-  changeRotateDir: function () {
+  changeRotateDir: function() {
     if (this.rotateDir === "clockwise") {
       this.rotateDir = "counter-clockwise";
     } else {
@@ -39,18 +55,24 @@ Drill.prototype = {
     }
     console.log("Rotate direction switched to " + this.rotateDir);
   },
-  changeBit: function () {
-    this.currentBit = changeSomething("bit", this.currentBit, this.bits);
-  },
   addBit: function (bit) {
     this.bits.push(bit);
     console.log("Bit added: " + bit);
+  },
+  changeBit: function() {
+    this.currentBit = changeSomething("bit", this.currentBit, this.bits);
   },
   changeSpeed: function() {
     this.currentSpeed = changeSomething("speed", this.currentSpeed, this.speeds);
   }
 };
 
+/**
+* Takes a user input to switch a thing currently in use (i.e. currentBit or currentSpeed) to different thing from the appropriate array (i.e. bits or speeds)
+* @param {String} thingName - the kind of thing that is being switched (i.e. "bit" or "speed")
+* @param {String} currentThing - the thing currently in use (i.e. value of currentBit or currentSpeed property of Drill object)
+* @param {Array} thingArray - the array of possible things to switch to (i.e. value of bits or speeds property of Drill object)
+*/
 var changeSomething = function (thingName, currentThing, thingArray) {
   if (currentThing) {
     if (confirm("Current " + thingName + ": " + currentThing + ".\nWould you like to change to a different " + thingName + "?") === false) {
@@ -63,7 +85,7 @@ var changeSomething = function (thingName, currentThing, thingArray) {
     for (var i = 1; i < thingArray.length; i++) {
       thingString += ", " + thingArray[i];
     }
-    var thingChoice = prompt("Choose a new " + thingName + ".\n" + thingName.charAt(0).toUpperCase() + thingName.substring(1, thingName.length) + " options: " + thingString + ".");
+    var thingChoice = prompt("Choose a new " + thingName + ".\n" + thingName.charAt(0).toUpperCase() + thingName.substring(1, word.length) + " options: " + thingString + ".");
     for (i = 0; i < thingArray.length; i++) {
       if (thingChoice == thingArray[i]) {
         console.log("Switched to new " + thingName + ": " + thingArray[i]);
@@ -76,31 +98,7 @@ var changeSomething = function (thingName, currentThing, thingArray) {
   }
 };
 
-var useDrillPrompt = function () {
-  var userAmpHours = parseFloat(prompt("How many amp-hours of drilling are you doing?"));
-  if (userAmpHours) {
-    drill1.useDrill(userAmpHours);
-  }
-};
-
-var addBitPrompt = function () {
-  var userAddBit = prompt("What is the name of the bit you are adding?");
-  if (userAddBit) {
-    drill1.addBit(userAddBit);
-  }
-};
-
-Array.prototype.toSpaceString = function () {
-  var spaceString = "";
-  for (var i = 0; i < this.length - 1; i++) {
-    spaceString += this[i] + ", ";
-  }
-  spaceString += this[this.length-1];
-  return spaceString;
-};
-
-
+//Creating an example Drill object:
 var bits1 = ["dowel bit", "auger drill bit", "wood spade bit", "masonry drill bit"];
 var speeds1 = [1, 2, 3];
-
 var drill1 = new Drill(1.2, bits1, speeds1);

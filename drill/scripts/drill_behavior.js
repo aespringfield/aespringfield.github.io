@@ -1,6 +1,7 @@
 $(document).ready(function() {
   updateDrill();
 
+//Calls methods of Drill object when buttons are clicked
   $('#bit').on('click', function() {
     drill1.changeBit();
     updateDrill();
@@ -33,6 +34,7 @@ $(document).ready(function() {
 });
 
 var updateDrill = function() {
+//Updates values shown in browser
   $('#battery_amp_hours').text(drill1.batteryAmpHours);
   $('#amp_hours_left').text(drill1.ampHoursLeft.toFixed(1));
   $('#current_bit').text(noneForUndefined(drill1.currentBit));
@@ -42,15 +44,33 @@ var updateDrill = function() {
   $('#rotate_dir').text(drill1.rotateDir);
 };
 
-var noneForUndefined = function(property) {
-  if (property === undefined) {
+//Helper functions for prompting user input for certain methods
+var useDrillPrompt = function() {
+  var userAmpHours = parseFloat(prompt("How many amp-hours of drilling are you doing?"));
+  if (userAmpHours) {
+    drill1.useDrill(userAmpHours);
+  }
+};
+
+var addBitPrompt = function() {
+  var userAddBit = prompt("What is the name of the bit you are adding?");
+  if (userAddBit) {
+    drill1.addBit(userAddBit);
+  }
+};
+
+//Functions for cleaning up the presentation of outputs in the browser
+var noneForUndefined = function(value) {
+//Makes undefined values display in the browser as "none" instead of empty
+  if (value === undefined) {
     return "none";
   } else {
-    return property;
+    return value;
   }
 };
 
 Array.prototype.toSpaceString = function () {
+//Returns an array as a more readable string, with each item separated by a comma and a space (no comma or space for last item)
   var spaceString = "";
   for (var i = 0; i < this.length - 1; i++) {
     spaceString += this[i] + ", ";
