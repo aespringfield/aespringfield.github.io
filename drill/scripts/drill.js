@@ -85,7 +85,7 @@ var changeSomething = function (thingName, currentThing, thingArray) {
     for (var i = 1; i < thingArray.length; i++) {
       thingString += ", " + thingArray[i];
     }
-    var thingChoice = prompt("Choose a new " + thingName + ".\n" + thingName.charAt(0).toUpperCase() + thingName.substring(1, word.length) + " options: " + thingString + ".");
+    var thingChoice = prompt("Choose a new " + thingName + ".\n" + thingName.charAt(0).toUpperCase() + thingName.substring(1, thingName.length) + " options: " + thingString + ".");
     for (i = 0; i < thingArray.length; i++) {
       if (thingChoice == thingArray[i]) {
         console.log("Switched to new " + thingName + ": " + thingArray[i]);
