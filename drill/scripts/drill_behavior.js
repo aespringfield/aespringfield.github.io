@@ -49,3 +49,12 @@ var noneForUndefined = function(property) {
     return property;
   }
 };
+
+Array.prototype.toSpaceString = function () {
+  var spaceString = "";
+  for (var i = 0; i < this.length - 1; i++) {
+    spaceString += this[i] + ", ";
+  }
+  spaceString += this[this.length-1];
+  return spaceString;
+};
