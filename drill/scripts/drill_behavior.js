@@ -80,8 +80,9 @@ Array.prototype.toSpaceString = function () {
 };
 
 //Making buttons tidier
-if (window.innerWidth > 3 * $('button').width()) {
+if (window.innerWidth > (3 * $('button').width())) {
   $('buttons1').after('<br />');
+  console.log('hi');
 }
 
 console.log(window.innerWidth);
