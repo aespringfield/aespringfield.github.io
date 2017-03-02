@@ -83,3 +83,6 @@ Array.prototype.toSpaceString = function () {
 if (window.innerWidth > $('#buttons1').width) {
   $('buttons1').after('<br />');
 }
+
+console.log(window.innerWidth);
+console.log($('#buttons1').width);
