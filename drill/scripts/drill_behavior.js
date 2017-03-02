@@ -79,11 +79,31 @@ Array.prototype.toSpaceString = function () {
   return spaceString;
 };
 
+var breakAppended3 = false;
+
 //Making buttons tidier
-if (window.innerWidth > (3 * $('button').width())) {
-  $('#buttons1').after('<br />');
-  console.log('hi');
+if (window.innerWidth > $('#buttons1').width()) {
+  $('#buttons1').after('<br id="buttonBreak"/>');
+  breakAppended3 = true;
 }
+
+var windowWidth = window.innerWidth;
+
+$(document).ready(function() {
+  $(window).resize(function() {
+    if (breakAppended3) {
+      if (window.innerWidth <= $('#buttons1').width()) {
+        $('#buttonBreak').remove();
+        breakAppended3 = false;
+      }
+    } else {
+      if (window.innerWidth > $('#buttons1').width()) {
+        $('#buttons1').after('<br />');
+        var breakAppended3 = true;
+      }
+    }
+  });
+});
 
 console.log(window.innerWidth);
 console.log($('#buttons1').width());
