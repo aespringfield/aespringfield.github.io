@@ -78,3 +78,8 @@ Array.prototype.toSpaceString = function () {
   spaceString += this[this.length-1];
   return spaceString;
 };
+
+//Making buttons tidier
+if (window.innerWidth > $('#buttons1').width) {
+  $('buttons1').after('<br />');
+}
