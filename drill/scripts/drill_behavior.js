@@ -91,6 +91,7 @@ var windowWidth = window.innerWidth;
 
 $(document).ready(function() {
   $(window).resize(function() {
+    console.log("break appended is " + breakAppended3);
     if (breakAppended3) {
       if (window.innerWidth <= $('#buttons1').width()) {
         $('#buttonBreak').remove();
@@ -98,7 +99,7 @@ $(document).ready(function() {
       }
     } else {
       if (window.innerWidth > $('#buttons1').width()) {
-        $('#buttons1').after('<br />');
+        $('#buttons1').after('<br id="buttonBreak"/>');
         var breakAppended3 = true;
       }
     }
