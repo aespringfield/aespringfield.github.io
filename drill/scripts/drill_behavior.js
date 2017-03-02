@@ -86,3 +86,5 @@ if (window.innerWidth > $('#buttons1').width()) {
 
 console.log(window.innerWidth);
 console.log($('#buttons1').width());
+console.log($('#add_bit').width());
+console.log(3*$('button').width());
