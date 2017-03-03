@@ -79,34 +79,8 @@ Array.prototype.toSpaceString = function () {
   return spaceString;
 };
 
-var breakAppended3 = false;
-
 //Making buttons tidier
 if (window.innerWidth > $('#buttons1').width()) {
   $('#buttons1').after('<br id="buttonBreak"/>');
   breakAppended3 = true;
 }
-
-var windowWidth = window.innerWidth;
-
-$(document).ready(function() {
-  $(window).resize(function() {
-    console.log("break appended is " + breakAppended3);
-    if (breakAppended3) {
-      if (window.innerWidth <= $('#buttons1').width()) {
-        $('#buttonBreak').remove();
-        breakAppended3 = false;
-      }
-    } else {
-      if (window.innerWidth > $('#buttons1').width()) {
-        $('#buttons1').after('<br id="buttonBreak"/>');
-        var breakAppended3 = true;
-      }
-    }
-  });
-});
-
-console.log(window.innerWidth);
-console.log($('#buttons1').width());
-console.log($('#add_bit').width());
-console.log(3*$('button').width());
